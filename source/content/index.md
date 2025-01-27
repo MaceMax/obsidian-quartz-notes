@@ -1,7 +1,5 @@
 ---
-title: My GitHub Pages Notebook!
+title: Max's Master Thesis Project Notes
 ---
 
-Hello world!
-
-Write some words here!
+Here I will document my progress throughout my thesis work.

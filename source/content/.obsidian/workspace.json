@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Project Week 2/2025-01-27.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "2025-01-27"
             }
           }
         ],
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Project Week 2/2025-01-27.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for index"
+              "title": "Backlinks for 2025-01-27"
             }
           },
           {
@@ -127,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "Project Week 2/2025-01-27.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from index"
+              "title": "Outgoing links from 2025-01-27"
             }
           },
           {
@@ -154,10 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "Project Week 2/2025-01-27.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of 2025-01-27"
             }
           },
           {
@@ -170,12 +170,12 @@
               "title": "Calendar"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,9 +191,16 @@
   },
   "active": "2d8837e6263008e3",
   "lastOpenFiles": [
-    "category-folder/index.md",
-    "category-folder/Some note.md",
+    "Project Week 1/2025-01-24.md",
+    "Project Week 2/2025-01-27.md",
+    "2025-01-27.md",
     "index.md",
+    "Project Week 2/index.md",
+    "Project Week 1/index.md",
+    "Project Week 2",
+    "Project Week 1/Untitled",
+    "Project Week 1",
+    "category-folder/Some note.md",
     "category-folder"
   ]
 }
