@@ -1,6 +1,7 @@
 [
-  "obsidian-git",
   "calendar",
+  "obsidian-git",
+  "obsidian-icon-folder",
   "templater-obsidian",
-  "obsidian-icon-folder"
+  "obsidian-languagetool-plugin"
 ]

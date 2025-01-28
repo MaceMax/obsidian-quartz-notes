@@ -1,1 +1,9 @@
-{}
+{
+  "spellcheckDictionary": [
+    "swapchain",
+    "Vulkan",
+    "Valgrind",
+    "enums",
+    "Vulkan"
+  ]
+}
