@@ -31,7 +31,7 @@ For example, things like GPU fixed function, like rasterizer mode, are stored in
 
 Because everything in Vulkan is “pre-built” by default, it means that most of the state validation in the GPU will be done when you create the object, and the rendering itself does less work and is faster. Good understanding of how these objects are created and used will allow you to control how everything executes in a way that will make the frame rate smooth.
 
-When doing actual GPU commands, all of the work on the GPU has to be recorded into a CommandBuffer, and submitted into a Queue. You first allocate a command buffer, start encoding things on it, and then you execute it by adding it to a Queue. When you submit a command buffer into a queue, it will start executing on the GPU side. You have tools to control when that execution has finished. If you submit multiple command buffers into different queues, it is possible that they execute in parallel.
+	When doing actual GPU commands, all of the work on the GPU has to be recorded into a CommandBuffer, and submitted into a Queue. You first allocate a command buffer, start encoding things on it, and then you execute it by adding it to a Queue. When you submit a command buffer into a queue, it will start executing on the GPU side. You have tools to control when that execution has finished. If you submit multiple command buffers into different queues, it is possible that they execute in parallel.
 
 There is no concept of a frame in Vulkan. This means that the way you render is entirely up to you. The only thing that matters is when you have to display the frame to the screen, which is done through a swapchain. But there is no fundamental difference between rendering and then sending the images over the network, or saving the images into a file, or displaying it into the screen through the swapchain.
 
@@ -61,3 +61,37 @@ All GPU commands are recorded into a `VkCommandBuffer`. All functions that will 
 Command buffers initially start in a **Ready** state. When in a **Ready** state, we call `vkBeginCommandBuffer()` to put it into a recording state, where we can start inputting commands with `vkCmdXXXX` functions. Once done recording commands, we call `vkEndCommandBuffer()` to finish recording and put the buffer into an **Executable** state where it is ready to be submitted to the GPU using `vkQueueSubmit()`. Do not reset the command buffer until the GPU has finished executing all the commands from the command buffer. Reset the command buffer with `vkResetCommandBuffer()`.
 
 ## Synchronization
+Vulkan offers explicit sync structures to allow the CPU to sync execution of commands with the GPU. And also to control the order of executions in the GPU. By default, once you send some commands to the GPU through a queue or other operation, those will have no restrictions and the driver/GPU will execute them as it sees fit. If we want to do multiple operations and we want them to execute on a given order, we need to use the synchronization systems. We have Fences and Semaphores for that
+
+### `VkFence`
+Used for synchronizing GPU -> CPU communication. Many Vulkan operations, like `vkQueueSubmit()` allow an optional fence parameter. If we supply this parameter, then we can figure out from the CPU if the GPU has finished the submitted operations. A fence will be signaled **once** submitted as a part of a command, and then we can use `VkWaitForFences` to have the CPU block until the commands have been executed. 
+![[vulkan-fence.png]]
+### `VkSemaphore`
+Used for GPU -> GPU synchronization. They allow defining order of operations on GPU commands and for them to run one after another. A given semaphore acts as a link between multiple GPU queue operations. One operation must signal the semaphore, and other operation must wait on it.
+
+Pseudocode example of linearizing 3 operations:
+
+```
+VkSemaphore Task1Semaphore;
+VkSemaphore Task2Semaphore;
+
+VkOperationInfo OpAlphaInfo;
+// Operation Alpha will signal the semaphore 1
+OpAlphaInfo.signalSemaphore = Task1Semaphore;
+
+VkDoSomething(OpAlphaInfo);
+
+VkOperationInfo OpBetaInfo;
+
+// Operation Beta signals semaphore 2, and waits on semaphore 1
+OpBetaInfo.signalSemaphore = Task2Semaphore;
+OpBetaInfo.waitSemaphore = Task1Semaphore;
+
+VkDoSomething(OpBetaInfo);
+
+VkOperationInfo OpGammaInfo;
+//Operation gamma waits on semaphore 2
+OpGammaInfo.waitSemaphore = Task2Semaphore;
+
+VkDoSomething(OpGammaInfo);
+```
