@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "private/Vulkan Notes.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vulkan Notes"
+              "title": "index"
             }
           },
           {
@@ -153,10 +153,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "private/Vulkan Notes.md"
+                "file": "index.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Vulkan Notes"
+              "title": "Outline of index"
             }
           },
           {
@@ -188,12 +188,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b77831b90dd9f87b",
+  "active": "47ef711f7e8c1d64",
   "lastOpenFiles": [
+    "private/Vulkan Notes.md",
     "private/images/vkcommands.png",
     "private/images",
     "Project Week 1/2025-01-24.md",
-    "private/Vulkan Notes.md",
     "private",
     "Project Week 2/2025-01-27.md",
     "templates/project-diary-template.md",

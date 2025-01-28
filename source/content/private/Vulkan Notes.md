@@ -53,9 +53,11 @@ Queues in Vulkan are an "execution port" for GPUs. Every GPU has multiple queues
 All queues in Vulkan come from a Queue family. A queue family is the type of queue it is and what type of commands it supports. 
 
 ### `VkCommandPool`
-A `VkCommandPool` is created from the `VkDevice`. You have to specify the index of the queue family that the command pool will create commands from. `VkCommandPool` can be thought of as the allocator for a `VkCommandBuffer`. You can allocate as many `VkCommandBuffer` as you want from a given pool, but you can only record commands from one thread at a time. If you want multithreaded command recording, you need more `VkCommandPool` objects. For that reason, we will pair a command buffer with its command allocator.
+A `VkCommandPool` is created from the `VkDevice`. You have to specify the index of the queue family that the command pool will create commands from. `VkCommandPool` can be thought of as the allocator for a `VkCommandBuffer`. You can allocate as many `VkCommandBuffer` as you want from a given pool, but you can only record commands from one thread at a time. If you want multi-threaded command recording, you need more `VkCommandPool` objects. For that reason, we will pair a command buffer with its command allocator.
 
 ### `VkCommandBuffer`
 All GPU commands are recorded into a `VkCommandBuffer`. All functions that will execute GPU work, won't do anything until the `VkCommandBuffer` is submitted to the GPU through a `VkQueueSubmit` call. 
 
 Command buffers initially start in a **Ready** state. When in a **Ready** state, we call `vkBeginCommandBuffer()` to put it into a recording state, where we can start inputting commands with `vkCmdXXXX` functions. Once done recording commands, we call `vkEndCommandBuffer()` to finish recording and put the buffer into an **Executable** state where it is ready to be submitted to the GPU using `vkQueueSubmit()`. Do not reset the command buffer until the GPU has finished executing all the commands from the command buffer. Reset the command buffer with `vkResetCommandBuffer()`.
+
+## Synchronization
