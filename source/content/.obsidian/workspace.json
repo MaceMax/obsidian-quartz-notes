@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project Week 2/2025-01-28.md",
+                "file": "Project Week 2/2025-01-29.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-01-28"
+              "title": "2025-01-29"
             }
           }
         ]
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project Week 2/2025-01-28.md",
+                "file": "Project Week 2/2025-01-29.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2025-01-28"
+              "title": "Outgoing links from 2025-01-29"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project Week 2/2025-01-28.md"
+                "file": "Project Week 2/2025-01-29.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-01-28"
+              "title": "Outline of 2025-01-29"
             }
           },
           {
@@ -184,12 +184,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b77831b90dd9f87b",
+  "active": "37d2cadb72e44310",
   "lastOpenFiles": [
-    "index.md",
     "Project Week 2/2025-01-28.md",
-    "2025-01-29.md",
+    "Project Week 2/2025-01-29.md",
     "private/Vulkan Notes.md",
+    "Project Week 2/index.md",
+    "index.md",
     "private/images/vulkan-fence.png",
     "Project Week 2/2025-01-27.md",
     "private/images/vkcommands.png",
@@ -199,7 +200,6 @@
     "templates/project-diary-template.md",
     "templates",
     "2025-01-27.md",
-    "Project Week 2/index.md",
     "Project Week 1/index.md",
     "Project Week 2",
     "Project Week 1/Untitled",
