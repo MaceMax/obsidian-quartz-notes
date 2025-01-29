@@ -4,6 +4,7 @@
     "Vulkan",
     "Valgrind",
     "enums",
-    "Vulkan"
+    "Vulkan",
+    "CUDA"
   ]
 }
