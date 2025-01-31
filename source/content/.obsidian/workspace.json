@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project Week 2/2025-01-30.md",
+                "file": "Project Week 2/2025-01-31.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-01-30"
+              "title": "2025-01-31"
             }
           }
         ]
@@ -184,10 +184,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b77831b90dd9f87b",
+  "active": "37d2cadb72e44310",
   "lastOpenFiles": [
-    "Project Week 2/2025-01-29.md",
     "Project Week 2/2025-01-30.md",
+    "Project Week 2/2025-01-31.md",
+    "Project Week 2/2025-01-29.md",
     "Project Week 2/2025-01-28.md",
     "private/Vulkan Notes.md",
     "Project Week 2/index.md",
