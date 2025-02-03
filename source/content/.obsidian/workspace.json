@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project Week 2/2025-01-31.md",
+                "file": "Project Week 3/2025-02-03.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-01-31"
+              "title": "2025-02-03"
             }
           }
         ]
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project Week 2/2025-01-29.md",
+                "file": "Project Week 2/2025-01-27.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2025-01-29"
+              "title": "Outgoing links from 2025-01-27"
             }
           },
           {
@@ -138,11 +138,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Project Week 2/2025-01-29.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of 2025-01-29"
+              "title": "Outline"
             }
           },
           {
@@ -151,8 +149,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -166,34 +164,35 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 449.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
-      "templater-obsidian:Templater": false
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "37d2cadb72e44310",
   "lastOpenFiles": [
-    "Project Week 2/2025-01-30.md",
     "Project Week 2/2025-01-31.md",
+    "Project Week 2/2025-01-30.md",
     "Project Week 2/2025-01-29.md",
     "Project Week 2/2025-01-28.md",
+    "Project Week 3/2025-02-03.md",
+    "Project Week 3",
     "private/Vulkan Notes.md",
-    "Project Week 2/index.md",
-    "index.md",
     "private/images/vulkan-fence.png",
+    "index.md",
     "Project Week 2/2025-01-27.md",
     "private/images/vkcommands.png",
     "private/images",
@@ -202,6 +201,7 @@
     "templates/project-diary-template.md",
     "templates",
     "2025-01-27.md",
+    "Project Week 2/index.md",
     "Project Week 1/index.md",
     "Project Week 2",
     "Project Week 1/Untitled",
