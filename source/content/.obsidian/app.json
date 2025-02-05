@@ -5,6 +5,7 @@
     "Valgrind",
     "enums",
     "Vulkan",
-    "CUDA"
+    "CUDA",
+    "speedup"
   ]
 }
