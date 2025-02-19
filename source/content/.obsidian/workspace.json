@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project Week 4/2025-02-14.md",
+                "file": "Project Week 5/2025-02-18.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-02-14"
+              "title": "2025-02-18"
             }
           }
         ]
@@ -184,15 +184,17 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b77831b90dd9f87b",
+  "active": "80905a3af616cdc9",
   "lastOpenFiles": [
-    "Excalidraw/vulkan-comptue.excalidraw.png",
-    "Project Week 4/2025-02-14.md",
-    "Excalidraw/vulkan-comptue.excalidraw 1.png",
     "Project Week 4/2025-02-13.md",
+    "Project Week 4/2025-02-14.md",
+    "Project Week 5/2025-02-18.md",
+    "Project Week 5",
+    "Project Week 4/vulkan-comptue.excalidraw.png",
+    "Excalidraw/vulkan-comptue.excalidraw 1.png",
     "private/CUDA Notes.md",
     "Project Week 4/2025-02-12.md",
-    "Excalidraw/vulkan-comptue.excalidraw.md",
+    "private/Excalidraw/vulkan-comptue.excalidraw.md",
     "private/Vulkan Notes.md",
     "Excalidraw/Drawing 2025-02-05 14.36.22.excalidraw.md",
     "Excalidraw/Drawing 2025-02-05 14.34.36.excalidraw.md",
@@ -202,7 +204,7 @@
     "Project Week 3/2025-02-06.md",
     "Project Week 3/2025-02-05.md",
     "Project Week 4",
-    "Excalidraw",
+    "private/Excalidraw",
     "Untitled.canvas",
     "Project Week 3/2025-02-04.md",
     "Project Week 3/2025-02-03.md",
@@ -221,10 +223,8 @@
     "templates/project-diary-template.md",
     "templates",
     "2025-01-27.md",
-    "Project Week 2/index.md",
     "Project Week 2",
     "Project Week 1/Untitled",
-    "Project Week 1",
-    "category-folder"
+    "Project Week 1"
   ]
 }
