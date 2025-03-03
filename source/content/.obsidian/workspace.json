@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project Week 6/2025-02-25.md",
+                "file": "Project Week 7/2025-03-03.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-02-25"
+              "title": "2025-03-03"
             }
           }
         ]
@@ -184,10 +184,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b77831b90dd9f87b",
+  "active": "80905a3af616cdc9",
   "lastOpenFiles": [
-    "Project Week 6/2025-02-24.md",
     "Project Week 6/2025-02-25.md",
+    "Project Week 7/2025-03-03.md",
+    "Project Week 7",
+    "Project Week 6/2025-02-24.md",
     "Project Week 5/2025-02-21.md",
     "Project Week 6",
     "Project Week 5/2025-02-19.md",
@@ -220,12 +222,10 @@
     "Project Week 3",
     "private/images/vulkan-fence.png",
     "index.md",
-    "Project Week 2/2025-01-27.md",
     "private/images/vkcommands.png",
     "private/images",
     "private",
     "templates",
-    "Project Week 2",
-    "Project Week 1/Untitled"
+    "Project Week 2"
   ]
 }
