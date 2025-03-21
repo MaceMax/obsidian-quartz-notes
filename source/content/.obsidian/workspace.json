@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project Week 9/2025-03-17.md",
+                "file": "Project Week 9/2025-03-21.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-03-17"
+              "title": "2025-03-21"
             }
           }
         ],
@@ -155,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project Week 9/2025-03-17.md",
+                "file": "Project Week 9/2025-03-21.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-03-17"
+              "title": "Outline of 2025-03-21"
             }
           },
           {
@@ -204,10 +204,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b8e840e1143f27a6",
+  "active": "b77831b90dd9f87b",
   "lastOpenFiles": [
-    "Project Week 8/2025-03-11.md",
     "Project Week 9/2025-03-17.md",
+    "Project Week 9/2025-03-21.md",
+    "Project Week 8/2025-03-11.md",
     "private/Excalidraw/vulkan-comptue.excalidraw.md",
     "Project Week 9",
     "private/Vulkan Notes.md",
@@ -241,7 +242,6 @@
     "Untitled.canvas",
     "Project Week 3/2025-02-04.md",
     "Project Week 3/2025-02-03.md",
-    "Project Week 2/2025-01-31.md",
     "Project Week 3",
     "private/images/vulkan-fence.png",
     "private/images/vkcommands.png",
