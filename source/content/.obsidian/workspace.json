@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project Week 9/2025-03-21.md",
+                "file": "Project Week 10/2025-03-24.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-03-21"
+              "title": "2025-03-24"
             }
           }
         ],
@@ -155,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project Week 9/2025-03-21.md",
+                "file": "Project Week 10/2025-03-24.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-03-21"
+              "title": "Outline of 2025-03-24"
             }
           },
           {
@@ -206,8 +206,11 @@
   },
   "active": "b77831b90dd9f87b",
   "lastOpenFiles": [
-    "Project Week 9/2025-03-17.md",
     "Project Week 9/2025-03-21.md",
+    "Project Week 10/2025-03-24.md",
+    "Project Week 10",
+    "Project Week 9/Untitled.md",
+    "Project Week 9/2025-03-17.md",
     "Project Week 8/2025-03-11.md",
     "private/Excalidraw/vulkan-comptue.excalidraw.md",
     "Project Week 9",
@@ -240,12 +243,9 @@
     "Project Week 4",
     "private/Excalidraw",
     "Untitled.canvas",
-    "Project Week 3/2025-02-04.md",
-    "Project Week 3/2025-02-03.md",
     "Project Week 3",
     "private/images/vulkan-fence.png",
     "private/images/vkcommands.png",
-    "private/images",
-    "private"
+    "private/images"
   ]
 }
