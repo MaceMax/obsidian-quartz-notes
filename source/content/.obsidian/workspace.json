@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project Week 10/2025-03-28.md",
+                "file": "Project Week 11/2025-03-31.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-03-28"
+              "title": "2025-03-31"
             }
           }
         ],
@@ -155,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project Week 10/2025-03-28.md",
+                "file": "Project Week 11/2025-03-31.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-03-28"
+              "title": "Outline of 2025-03-31"
             }
           },
           {
@@ -204,10 +204,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b8e840e1143f27a6",
+  "active": "b77831b90dd9f87b",
   "lastOpenFiles": [
-    "Project Week 10/2025-03-27.md",
     "Project Week 10/2025-03-28.md",
+    "Project Week 11/2025-03-31.md",
+    "Project Week 11",
+    "Project Week 10/2025-03-27.md",
     "Project Week 10/Untitled.md",
     "Project Week 10/2025-03-26.md",
     "Project Week 10/2025-03-25.md",
@@ -239,13 +241,11 @@
     "private/CUDA Notes.md",
     "Project Week 4/2025-02-12.md",
     "Excalidraw/Drawing 2025-02-05 14.36.22.excalidraw.md",
-    "Excalidraw/Drawing 2025-02-05 14.34.36.excalidraw.md",
     "Project Week 4",
     "private/Excalidraw",
     "Untitled.canvas",
     "Project Week 3",
     "private/images/vulkan-fence.png",
-    "private/images/vkcommands.png",
-    "private/images"
+    "private/images/vkcommands.png"
   ]
 }
