@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project Week 12/2025-04-09.md",
+                "file": "Project Week 13/2025-04-14.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-04-09"
+              "title": "2025-04-14"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project Week 12/2025-04-09.md",
+                "file": "Project Week 13/2025-04-14.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-04-09"
+              "title": "Outline of 2025-04-14"
             }
           },
           {
@@ -191,8 +191,10 @@
   },
   "active": "b8e840e1143f27a6",
   "lastOpenFiles": [
-    "Project Week 12/2025-04-08.md",
     "Project Week 12/2025-04-09.md",
+    "Project Week 13/2025-04-14.md",
+    "Project Week 13",
+    "Project Week 12/2025-04-08.md",
     "Project Week 12/2025-04-07.md",
     "Project Week 11/2025-04-04.md",
     "Project Week 12",
@@ -222,13 +224,11 @@
     "Project Week 6/2025-02-25.md",
     "Project Week 7",
     "Project Week 6/2025-02-24.md",
-    "Project Week 5/2025-02-21.md",
     "Project Week 6",
     "Project Week 5",
     "Project Week 4/vulkan-comptue.excalidraw.png",
     "Excalidraw/vulkan-comptue.excalidraw 1.png",
     "Project Week 4",
-    "private/Excalidraw",
     "Untitled.canvas",
     "private/images/vulkan-fence.png",
     "private/images/vkcommands.png"
